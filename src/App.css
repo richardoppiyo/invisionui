@@ -1,0 +1,57 @@
+.outerbox {
+  display: flex; 
+}
+
+.left-div {
+  width: 65%;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #3862f7;
+  width: 35%;
+  height: 100vh;
+  justify-content: flex-end;
+}
+
+.right-div > * {
+  padding: 20px 100px;
+  color: white;
+}
+
+.upper {
+  display: flex;
+  height: 15vh;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 20px 100px 0 0;
+}
+
+.form-icon {
+    background-color: white;
+}
+
+.right-upper-div {
+  padding-bottom: 38vh;
+}
+
+.right-lower-div {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.right-lower-div > * {
+  width: 25px;
+  height: 25px;
+  padding: 15px; 
+  margin: 10px;
+}
+
+.icon1 {
+  background-color: aliceblue;
+  color: gray;
+  border-radius: 50%;
+}
