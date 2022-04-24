@@ -1,0 +1,38 @@
+.form-div {
+    margin-left: 320px;
+}
+
+.form-div > * {
+    margin: 20px;
+}
+
+.form-element {
+    height: 40px;
+    width: 70%;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.form-element2 {
+    height: 45px;
+    width: 67%;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.form-element3 {
+    height: 40px;
+    width: 66%;
+    border: none;
+}
+
+.form-text {
+    line-height: 30px;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.form-icon {
+    background-color: white;
+}
