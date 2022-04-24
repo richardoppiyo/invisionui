@@ -9,6 +9,7 @@
 .right-div {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: #3862f7;
   width: 35%;
   height: 100vh;
@@ -23,6 +24,7 @@
 .upper {
   display: flex;
   height: 15vh;
+  flex-wrap: wrap;
   justify-content: flex-end;
   margin: 20px 100px 0 0;
 }
@@ -38,6 +40,7 @@
 .right-lower-div {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .right-lower-div > * {
