@@ -1,4 +1,5 @@
 import './App.css';
+// import NameForm from './form';
 
 function App() {
   return (
@@ -7,13 +8,14 @@ function App() {
         <div className="outerbox">
         <div className="left-div">
           <div className="upper">
-          <p>
-          Step 1 of 3 ...
-        </p>
+              <p>
+              Step 1 of 3 ...
+            </p>
           </div>
-        <div className="lower">
-          <p>inner content</p>
-        </div>
+          <div className="lower">
+            <p>inner content</p>
+            {/* <NameForm /> */}
+          </div>
         </div>
         <div className="right-div">
           <h1>Dummy heading</h1>
